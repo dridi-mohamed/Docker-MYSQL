@@ -1,0 +1,21 @@
+
+
+# install SQL 
+ docker run --name DB -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root01mysql
+
+# -- name: name to use later 
+# -p : Ports use to cennect with SQL
+#  -e : envirmenite 
+# mysql : name image 
+
+# RUN SQL
+docker exec -it DB bash
+
+# Create the SQL is run now lets ceater a datbase 
+
+
+mysql -u root passwordroot
+
+# dont take space 
+
+MYSQL/>
